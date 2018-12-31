@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Router</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/georgia.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+</head>
+<body>
+<div class="main">
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo"><h1><a href="index.html">PNB Networking System</a></h1></div>
+    </div>
+  </div>
+
+  <div class="menu_nav">
+    <div class="menu_nav_resize">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="modem.html">Modem</a></li>
+        <li class="active"><a href="router.html">Router</a></li>
+        <li><a href="ip.html">IP Address</a></li>
+        <li><a href="sub.html">Subnetting</a></li>
+		<li><a href="routing.html">Routing</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="hbg">
+    <div class="hbg_resize">
+      <img src="images/hbg_bg.jpg" width="970" height="215" alt="image" />
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content_resize">
+          <h2><span>Router</span></h2>
+          <div class="clr"></div>
+          <p>A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. Data sent through the internet, such as a web page or email, is in the form of data packets. A packet is typically forwarded from one router to another router through the networks that constitute an internetwork until it reaches its destination node.</p>
+		  <p>A router is connected to two or more data lines from different networks. When a data packet comes in on one of the lines, the router reads the network address information in the packet to determine the ultimate destination. Then, using information in its routing table or routing policy, it directs the packet to the next network on its journey.</p>
+		  <p>The most familiar type of routers are home and small office routers that simply forward IP packets between the home computers and the Internet. An example of a router would be the owner's cable or DSL router, which connects to the Internet through an Internet service provider (ISP). More sophisticated routers, such as enterprise routers, connect large business or ISP networks up to the powerful core routers that forward data at high speed along the optical fiber lines of the Internet backbone. Though routers are typically dedicated hardware devices, software-based routers also exist.</p>
+          <br>
+		  <h2><span>Operation</span></h2>
+		  <br>
+		  <br>
+          <p>When multiple routers are used in interconnected networks, the routers can exchange information about destination addresses using a routing protocol. Each router builds up a routing table listing the preferred routes between any two systems on the interconnected networks.</p>
+          <p>A router has two types of network element components organized onto separate planes:</p>
+          <ul type=circle>
+		  <li><u>Forwarding plane:</u> The router forwards data packets between incoming and outgoing interface connections. It forwards them to the correct network type using information that the packet header contains matched to entries in the FIB supplied by the control plane.
+		  <li><u>Control plane:</u> A router maintains a routing table that lists which route should be used to forward a data packet, and through which physical interface connection. It does this using internal preconfigured directives, called static routes, or by learning routes dynamically using a routing protocol. Static and dynamic routes are stored in the routing table. The control-plane logic then strips non-essential directives from the table and builds a forwarding information base (FIB) to be used by the forwarding plane.
+		  </ul>
+		  <br>
+		  <br>
+		  <h2 class="star"><span>Applications</span></h2>
+		  <br>
+		  <br>
+		  <p>A router may have interfaces for different types of physical layer connections, such as copper cables, fiber optic, or wireless transmission. It can also support different network layer transmission standards. Each network interface is used to enable data packets to be forwarded from one transmission system to another. Routers may also be used to connect two or more logical groups of computer devices known as subnets, each with a different network prefix.</p>
+		  <p>Routers may provide connectivity within enterprises, between enterprises and the Internet, or between internet service providers' (ISPs') networks. The largest routers (such as the Cisco CRS-1 or Juniper PTX) interconnect the various ISPs, or may be used in large enterprise networks. Smaller routers usually provide connectivity for typical home and office networks.</p>
+		  <p>All sizes of routers may be found inside enterprises. The most powerful routers are usually found in ISPs, academic and research facilities. Large businesses may also need more powerful routers to cope with ever-increasing demands of intranet data traffic. A hierarchical internetworking model for interconnecting routers in large networks is in common use.</p>  
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <hr></hr>
+	  <p class="lf">&copy; Copyright</p>
+      <ul class="fmenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="modem.html">Modem</a></li>
+        <li class="active"><a href="router.html">Router</a></li>
+        <li><a href="ip.html">IP Address</a></li>
+        <li><a href="sub.html">Subnetting</a></li>
+		<li><a href="routing.html">Routing</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

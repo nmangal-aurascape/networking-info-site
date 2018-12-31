@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Routing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/georgia.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+</head>
+<body>
+<div class="main">
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo"><h1><a href="index.html">PNB Networking System</a></h1></div>
+    </div>
+  </div>
+
+  <div class="menu_nav">
+    <div class="menu_nav_resize">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="modem.html">Modem</a></li>
+        <li><a href="router.html">Router</a></li>
+        <li><a href="ip.html">IP Address</a></li>
+        <li><a href="sub.html">Subnetting</a></li>
+		<li class="active"><a href="routing.html">Routing</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="hbg">
+    <div class="hbg_resize">
+      <img src="images/hbg_bg.jpg" width="970" height="215" alt="image" />
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content_resize">
+          <h2><span>Routing</span></h2>
+		  <br>
+		  <br>
+          <p>Routing is the process of selecting a path for traffic in a network, or between or across multiple networks. Broadly, routing is performed in many types of networks, including circuit-switched networks, such as the public switched telephone network (PSTN), and computer networks, such as the Internet.</p>
+		  <p>In packet switching networks, routing is the higher-level decision making that directs network packets from their source toward their destination through intermediate network nodes by specific packet forwarding mechanisms. Packet forwarding is the transit of network packets from one network interface to another. Intermediate nodes are typically network hardware devices such as routers, gateways, firewalls, or switches. General-purpose computers also forward packets and perform routing, although they have no specially optimized hardware for the task.</p>
+		  <p>The routing process usually directs forwarding on the basis of routing tables, which maintain a record of the routes to various network destinations. Routing tables may be specified by an administrator, learned by observing network traffic or built with the assistance of routing protocols.</p>
+		  <p>Routing, in a narrower sense of the term, often refers to IP routing and is contrasted with bridging. IP routing assumes that network addresses are structured and that similar addresses imply proximity within the network. Structured addresses allow a single routing table entry to represent the route to a group of devices. In large networks, structured addressing (routing, in the narrow sense) outperforms unstructured addressing (bridging). Routing has become the dominant form of addressing on the Internet. Bridging is still widely used within local area networks.</p>
+          <br>
+		  <h2><span>Delivery schemes</span></h2>
+		  <br>
+		  <br>
+		  <br>
+		  <p>Routing schemes differ in how they deliver messages:</p>
+		  <ul>
+		  <li><u>unicast</u> delivers a message to a single specific node
+		  <li><u>broadcast</u> delivers a message to all nodes in the network
+		  <li><u>multicast</u> delivers a message to a group of nodes that have expressed interest in receiving the message
+		  <li><u>anycast</u> delivers a message to any one out of a group of nodes, typically the one nearest to the source
+		  <li><u>geocast</u> delivers a message to a geographic area
+		  </ul>
+		  <p>Unicast is the dominant form of message delivery on the Internet. This article focuses on unicast routing algorithms</p>
+		  <br>
+		  <h2><span>Topology distribution</span></h2>
+		  <br>
+		  <br>
+		  <br>
+		  <p>In static routing (or non-dynamic routing), small networks may use manually configured routing tables. Larger networks have complex topologies that can change rapidly, making the manual construction of routing tables unfeasible. Nevertheless, most of the public switched telephone network (PSTN) uses pre-computed routing tables, with fallback routes if the most direct route becomes blocked (see routing in the PSTN).</p>
+		  <p>Dynamic routing attempts to solve this problem by constructing routing tables automatically, based on information carried by routing protocols, allowing the network to act nearly autonomously in avoiding network failures and blockages. Dynamic routing dominates the Internet. Examples of dynamic-routing protocols and algorithms include Routing Information Protocol (RIP), Open Shortest Path First (OSPF) and Enhanced Interior Gateway Routing Protocol (EIGRP).</p>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <hr>
+	  <p class="lf">&copy; Copyright</p>
+      <ul class="fmenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="modem.html">Modem</a></li>
+        <li><a href="router.html">Router</a></li>
+        <li><a href="ip.html">IP Address</a></li>
+        <li><a href="sub.html">Subnetting</a></li>
+		<li class="active"><a href="routing.html">Routing</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Subnetting</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/georgia.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+</head>
+<body>
+<div class="main">
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo"><h1><a href="index.html">PNB Networking System</a></h1></div>
+    </div>
+  </div>
+
+  <div class="menu_nav">
+    <div class="menu_nav_resize">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="modem.html">Modem</a></li>
+        <li><a href="router.html">Router</a></li>
+        <li><a href="ip.html">IP Address</a></li>
+        <li class="active"><a href="sub.html">Subnetting</a></li>
+		<li><a href="routing.html">Routing</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="hbg">
+    <div class="hbg_resize">
+      <img src="images/hbg_bg.jpg" width="970" height="215" alt="image" />
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content_resize">
+          <h2><span>Subnetwork</span></h2>
+		  <br>
+		  <br>
+          <p>A subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting.</p>
+		  <p>Computers that belong to a subnet are addressed with an identical most-significant bit-group in their IP addresses. This results in the logical division of an IP address into two fields, the network number or routing prefix and the rest field or host identifier. The rest field is an identifier for a specific host or network interface.</p>
+		  <p>The routing prefix may be expressed in Classless Inter-Domain Routing (CIDR) notation written as the first address of a network, followed by a slash character (/), and ending with the bit-length of the prefix. For example, 198.51.100.0/24 is the prefix of the Internet Protocol version 4 network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. The IPv6 address specification 2001:db8::/32 is a large address block with 296 addresses, having a 32-bit routing prefix.</p>
+		  <p>For IPv4, a network may also be characterized by its subnet mask or netmask, which is the bitmask that when applied by a bitwise AND operation to any IP address in the network, yields the routing prefix. Subnet masks are also expressed in dot-decimal notation like an address. For example, 255.255.255.0 is the subnet mask for the prefix 198.51.100.0/24.</p>
+		  <p>Traffic is exchanged between subnetworks through routers when the routing prefixes of the source address and the destination address differ. A router serves as a logical or physical boundary between the subnets.</p>
+		  <p>The benefits of subnetting an existing network vary with each deployment scenario. In the address allocation architecture of the Internet using CIDR and in large organizations, it is necessary to allocate address space efficiently. Subnetting may also enhance routing efficiency, or have advantages in network management when subnetworks are administratively controlled by different entities in a larger organization. Subnets may be arranged logically in a hierarchical architecture, partitioning an organization's network address space into a tree-like routing structure.</p>
+          <br>
+		  <h2><span>Network addressing</span></h2>
+		  <br>
+		  <br>
+		  <br>
+		  <p>Computers participating in a network such as the Internet each have at least one network address. Usually this address is unique to each device and can either be configured automatically with the Dynamic Host Configuration Protocol (DHCP) by a network server, manually by an administrator, or automatically by stateless address autoconfiguration.</p>
+		  <p>An address fulfills the functions of identifying the host and locating it on the network. The most common network addressing architecture is Internet Protocol version 4 (IPv4), but its successor, IPv6, has been increasingly deployed since approximately 2006. An IPv4 address consists of 32 bits, for readability written in a form consisting of four decimal octets separated by dots, called dot-decimal notation. An IPv6 address consists of 128 bits written in a hexadecimal notation and groupings of 16 bits, called hextets, separated by colons. An IP address is divided into two logical parts, the network prefix and the host identifier. All hosts on a subnetwork have the same network prefix. This prefix occupies the most-significant bits of the address. The number of bits allocated within a network to the prefix may vary between subnets, depending on the network architecture. The host identifier is a unique local identification and is either a host number on the local network or an interface identifier.</p>
+		  <p>This addressing structure permits the selective routing of IP packets across multiple networks via special gateway computers, called routers, to a destination host if the network prefixes of origination and destination hosts differ, or sent directly to a target host on the local network if they are the same. Routers constitute logical or physical borders between the subnets, and manage traffic between them. Each subnet is served by a designated default router, but may consist internally of multiple physical Ethernet segments interconnected by network switches.</p>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <hr>
+	  <p class="lf">&copy; Copyright</p>
+      <ul class="fmenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="modem.html">Modem</a></li>
+        <li><a href="router.html">Router</a></li>
+        <li><a href="ip.html">IP Address</a></li>
+        <li class="active"><a href="sub.html">Subnetting</a></li>
+		<li><a href="routing.html">Routing</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
